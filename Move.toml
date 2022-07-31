@@ -1,0 +1,11 @@
+[package]
+name = "oracle"
+version = "0.0.1"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/", rev = "main" }
+
+[addresses]
+oracle = "0x0"
+test_1 = "0xA1"
+test_2 = "0xA2"
